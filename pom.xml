@@ -123,6 +123,46 @@
                 </plugins>
             </build>
         </profile>
+            <profile>
+      <id>checkerframework</id>
+      <!-- If you omit the activation block, run mvn with "-P checkerframework" to run checkers. -->
+      <activation>
+        <jdk>[1.8,)</jdk>
+      </activation>
+      <build>
+        <plugins>
+          <plugin>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.10.1</version>
+            <configuration>
+                    <source>${java.source}</source>
+                    <target>${java.target}</target>
+                    <release>${java.apiVersion}</release>
+              <fork>true</fork> <!-- Must fork or else JVM arguments are ignored. -->
+              <failOnError>false</failOnError> 
+              <annotationProcessorPaths>
+                <path>
+                  <groupId>org.checkerframework</groupId>
+                  <artifactId>checker</artifactId>
+                  <version>3.40.0</version>
+                </path>
+              </annotationProcessorPaths>
+              <annotationProcessors>
+                <!-- Add all the checkers you want to enable here -->
+                <annotationProcessor>org.checkerframework.checker.optional.OptionalChecker</annotationProcessor>
+              </annotationProcessors>
+              <compilerArgs>
+                <arg>-Xmaxerrs</arg>
+                <arg>10000</arg>
+                <arg>-Xmaxwarns</arg>
+                <arg>10000</arg>
+                <!-- <arg>-Awarns</arg> --> <!-- -Awarns turns type-checking errors into warnings. -->
+              </compilerArgs>
+            </configuration>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
     </profiles>
 
     <build>
@@ -1040,8 +1080,7 @@
         <dependency>
             <groupId>org.checkerframework</groupId>
             <artifactId>checker-qual</artifactId>
-            <version>3.26.0</version>
-            <scope>test</scope>
+            <version>3.40.0</version>
         </dependency>
 
         <!-- JDBC drivers for datasource integration tests -->
