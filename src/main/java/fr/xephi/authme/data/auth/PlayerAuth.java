@@ -238,6 +238,7 @@ public class PlayerAuth {
          *
          * @return the generated PlayerAuth
          */
+        @SuppressWarnings("optional:introduce.eliminate") // introduce-eliminate : Mis-using optional as control-flow
         public PlayerAuth build() {
             PlayerAuth auth = new PlayerAuth();
             auth.nickname = checkNotNull(name).toLowerCase(Locale.ROOT);

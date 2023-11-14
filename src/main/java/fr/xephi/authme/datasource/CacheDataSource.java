@@ -60,6 +60,7 @@ public class CacheDataSource implements DataSource {
                 }
 
                 @Override
+                @SuppressWarnings("optional:optional.parameter") // optional-parameter : mis-using option as parameter
                 public ListenableFuture<Optional<PlayerAuth>> reload(final String key, Optional<PlayerAuth> oldValue) {
                     return executorService.submit(() -> load(key));
                 }
