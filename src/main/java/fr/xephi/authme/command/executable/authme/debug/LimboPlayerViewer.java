@@ -87,11 +87,11 @@ class LimboPlayerViewer implements DebugSection {
      */
     private static final class InfoDisplayer {
         private final CommandSender sender;
-        @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-as-field
+        @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
         private final Optional<Player> player;
-        @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-as-field
+        @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
         private final Optional<LimboPlayer> memoryLimbo;
-        @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-as-field
+        @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
         private final Optional<LimboPlayer> diskLimbo;
 
         /**
@@ -139,7 +139,7 @@ class LimboPlayerViewer implements DebugSection {
             return this;
         }
 
-        @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-as-parameter
+        @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-parameter
         static <E, T> String getData(Optional<E> entity, Function<E, T> getter) {
             return entity.map(getter).map(String::valueOf).orElse(" -- ");
         }
