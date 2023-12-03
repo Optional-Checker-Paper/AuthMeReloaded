@@ -1,0 +1,106 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/xephi/authme/command/executable/authme/debug/LimboPlayerViewer.java</file>
+  <line>91</line>
+  <module>authme</module>
+  <package>fr.xephi.authme.command.executable.authme.debug</package>
+  <entry_point TYPE="field" FQNAME="fr.xephi.authme.command.executable.authme.debug.LimboPlayerViewer.InfoDisplayer memoryLimbo" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;LimboPlayer&gt;&lt;/code&gt; used as type for field 'memoryLimbo'</description>
+  <highlighted_element>Optional&lt;LimboPlayer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>175</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/xephi/authme/command/executable/authme/debug/LimboPlayerViewer.java</file>
+  <line>92</line>
+  <module>authme</module>
+  <package>fr.xephi.authme.command.executable.authme.debug</package>
+  <entry_point TYPE="field" FQNAME="fr.xephi.authme.command.executable.authme.debug.LimboPlayerViewer.InfoDisplayer diskLimbo" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;LimboPlayer&gt;&lt;/code&gt; used as type for field 'diskLimbo'</description>
+  <highlighted_element>Optional&lt;LimboPlayer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>291</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/xephi/authme/command/executable/authme/debug/LimboPlayerViewer.java</file>
+  <line>139</line>
+  <module>authme</module>
+  <package>fr.xephi.authme.command.executable.authme.debug</package>
+  <entry_point TYPE="method" FQNAME="fr.xephi.authme.command.executable.authme.debug.LimboPlayerViewer.InfoDisplayer java.lang.String getData(java.util.Optional&lt;E&gt; entity, java.util.function.Function&lt;E,T&gt; getter)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;E&gt;&lt;/code&gt; used as type for parameter 'entity'</description>
+  <highlighted_element>Optional&lt;E&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>183</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/xephi/authme/settings/SettingsWarner.java</file>
+  <line>87</line>
+  <module>authme</module>
+  <package>fr.xephi.authme.settings</package>
+  <entry_point TYPE="method" FQNAME="fr.xephi.authme.settings.SettingsWarner boolean isTrue(java.util.Optional&lt;java.lang.Boolean&gt; value)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Boolean&gt;&lt;/code&gt; used as type for parameter 'value'</description>
+  <highlighted_element>Optional&lt;Boolean&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>34</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/xephi/authme/settings/commandconfig/OnLoginCommand.java</file>
+  <line>10</line>
+  <module>authme</module>
+  <package>fr.xephi.authme.settings.commandconfig</package>
+  <entry_point TYPE="field" FQNAME="fr.xephi.authme.settings.commandconfig.OnLoginCommand ifNumberOfAccountsAtLeast" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Integer&gt;&lt;/code&gt; used as type for field 'ifNumberOfAccountsAtLeast'</description>
+  <highlighted_element>Optional&lt;Integer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>114</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/xephi/authme/settings/commandconfig/OnLoginCommand.java</file>
+  <line>11</line>
+  <module>authme</module>
+  <package>fr.xephi.authme.settings.commandconfig</package>
+  <entry_point TYPE="field" FQNAME="fr.xephi.authme.settings.commandconfig.OnLoginCommand ifNumberOfAccountsLessThan" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Integer&gt;&lt;/code&gt; used as type for field 'ifNumberOfAccountsLessThan'</description>
+  <highlighted_element>Optional&lt;Integer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>88</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/xephi/authme/settings/commandconfig/OnLoginCommand.java</file>
+  <line>38</line>
+  <module>authme</module>
+  <package>fr.xephi.authme.settings.commandconfig</package>
+  <entry_point TYPE="method" FQNAME="fr.xephi.authme.settings.commandconfig.OnLoginCommand void setIfNumberOfAccountsAtLeast(java.util.Optional&lt;java.lang.Integer&gt; ifNumberOfAccountsAtLeast)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Integer&gt;&lt;/code&gt; used as type for parameter 'ifNumberOfAccountsAtLeast'</description>
+  <highlighted_element>Optional&lt;Integer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/xephi/authme/settings/commandconfig/OnLoginCommand.java</file>
+  <line>46</line>
+  <module>authme</module>
+  <package>fr.xephi.authme.settings.commandconfig</package>
+  <entry_point TYPE="method" FQNAME="fr.xephi.authme.settings.commandconfig.OnLoginCommand void setIfNumberOfAccountsLessThan(java.util.Optional&lt;java.lang.Integer&gt; ifNumberOfAccountsLessThan)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Integer&gt;&lt;/code&gt; used as type for parameter 'ifNumberOfAccountsLessThan'</description>
+  <highlighted_element>Optional&lt;Integer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>17</length>
+</problem>
+</problems>

@@ -7,7 +7,9 @@ import java.util.Optional;
  */
 public class OnLoginCommand extends Command {
 
+    @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-as-field
     private Optional<Integer> ifNumberOfAccountsAtLeast = Optional.empty();
+    @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-as-field
     private Optional<Integer> ifNumberOfAccountsLessThan = Optional.empty();
 
     /**
@@ -35,6 +37,7 @@ public class OnLoginCommand extends Command {
         return ifNumberOfAccountsAtLeast;
     }
 
+    @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-as-parameter
     public void setIfNumberOfAccountsAtLeast(Optional<Integer> ifNumberOfAccountsAtLeast) {
         this.ifNumberOfAccountsAtLeast = ifNumberOfAccountsAtLeast;
     }
@@ -43,6 +46,7 @@ public class OnLoginCommand extends Command {
         return ifNumberOfAccountsLessThan;
     }
 
+    @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-as-parameter
     public void setIfNumberOfAccountsLessThan(Optional<Integer> ifNumberOfAccountsLessThan) {
         this.ifNumberOfAccountsLessThan = ifNumberOfAccountsLessThan;
     }

@@ -1,0 +1,15 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java</file>
+  <line>298</line>
+  <module>authme</module>
+  <package>fr.xephi.authme.datasource</package>
+  <entry_point TYPE="method" FQNAME="fr.xephi.authme.datasource.CacheDataSource void refreshCache(java.lang.String playerName)" />
+  <problem_class id="OptionalAssignedToNull" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Null value for Optional type</problem_class>
+  <description>Optional value is compared with null</description>
+  <highlighted_element>cachedAuths.getIfPresent(playerName) != null</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>44</length>
+</problem>
+</problems>

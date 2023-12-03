@@ -293,6 +293,7 @@ public class CacheDataSource implements DataSource {
         cachedAuths.invalidate(playerName);
     }
 
+    @SuppressWarnings("OptionalAssignedToNull") // intellij-suppression-optional-assigned-to-null
     @Override
     public void refreshCache(String playerName) {
         if (cachedAuths.getIfPresent(playerName) != null) {

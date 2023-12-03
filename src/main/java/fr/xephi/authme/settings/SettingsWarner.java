@@ -84,6 +84,7 @@ public class SettingsWarner {
         }
     }
 
+    @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-as-parameter
     private static boolean isTrue(Optional<Boolean> value) {
         return value.isPresent() && value.get();
     }
