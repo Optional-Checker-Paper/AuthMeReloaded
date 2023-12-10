@@ -7,9 +7,9 @@ import java.util.Optional;
  */
 public class OnLoginCommand extends Command {
 
-    @SuppressWarnings("optional:optional.field") // optional-field : mis-using empty to codify outside condition
+    @SuppressWarnings("optional:optional.field") // optional-field
     private Optional<Integer> ifNumberOfAccountsAtLeast = Optional.empty();
-    @SuppressWarnings("optional:optional.field") // optional-field : mis-using empty to codify outside condition
+    @SuppressWarnings("optional:optional.field") // optional-field
     private Optional<Integer> ifNumberOfAccountsLessThan = Optional.empty();
 
     /**
@@ -37,7 +37,7 @@ public class OnLoginCommand extends Command {
         return ifNumberOfAccountsAtLeast;
     }
 
-    @SuppressWarnings("optional:optional.parameter") // optional-parameter : mis-using option as parameter
+    @SuppressWarnings("optional:optional.parameter") // optional-parameter
     public void setIfNumberOfAccountsAtLeast(Optional<Integer> ifNumberOfAccountsAtLeast) {
         this.ifNumberOfAccountsAtLeast = ifNumberOfAccountsAtLeast;
     }
@@ -46,7 +46,7 @@ public class OnLoginCommand extends Command {
         return ifNumberOfAccountsLessThan;
     }
 
-    @SuppressWarnings("optional:optional.parameter") // optional-parameter : mis-using option as parameter
+    @SuppressWarnings("optional:optional.parameter") // optional-parameter
     public void setIfNumberOfAccountsLessThan(Optional<Integer> ifNumberOfAccountsLessThan) {
         this.ifNumberOfAccountsLessThan = ifNumberOfAccountsLessThan;
     }

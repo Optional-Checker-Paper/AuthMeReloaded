@@ -219,7 +219,7 @@ public class SettingsMigrationService extends PlainMigrationService {
      * @param configData Configuration data
      * @return True if the configuration has changed, false otherwise
      */
-    @SuppressWarnings("optional:introduce.eliminate") // introduce-eliminate : Mis-using optional as control-flow
+    @SuppressWarnings("optional:introduce.eliminate") // introduce-eliminate
     private static boolean changeBooleanSettingToLogLevelProperty(PropertyReader reader,
                                                                   ConfigurationData configData) {
         final String oldPath = "Security.console.noConsoleSpam";

@@ -163,7 +163,7 @@ class DistributedFilesPersistenceHandler implements LimboPersistenceHandler {
      *
      * @param limbosFromOldSegments the limbo players to store into the current segment files
      */
-    @SuppressWarnings("optional:introduce.eliminate") // introduce-eliminate : Mis-using optional as control-flow
+    @SuppressWarnings("optional:introduce.eliminate") // introduce-eliminate
     private void saveToNewSegments(Map<String, LimboPlayer> limbosFromOldSegments) {
         Map<String, Map<String, LimboPlayer>> limboBySegment = groupBySegment(limbosFromOldSegments);
 

@@ -87,12 +87,11 @@ class LimboPlayerViewer implements DebugSection {
      */
     private static final class InfoDisplayer {
         private final CommandSender sender;
-
-        @SuppressWarnings("optional:optional.field") // optional-field : mis-using empty to codify outside condition
+        @SuppressWarnings("optional:optional.field") // optional-field
         private final Optional<Player> player;
-        @SuppressWarnings("optional:optional.field") // optional-field : mis-using empty to codify outside condition
+        @SuppressWarnings("optional:optional.field") // optional-field
         private final Optional<LimboPlayer> memoryLimbo;
-        @SuppressWarnings("optional:optional.field") // optional-field : mis-using empty to codify outside condition
+        @SuppressWarnings("optional:optional.field") // optional-field
         private final Optional<LimboPlayer> diskLimbo;
 
         /**
@@ -140,7 +139,7 @@ class LimboPlayerViewer implements DebugSection {
             return this;
         }
 
-        @SuppressWarnings("optional:optional.parameter") // optional-parameter : mis-using option as parameter
+        @SuppressWarnings("optional:optional.parameter") // optional-parameter
         static <E, T> String getData(Optional<E> entity, Function<E, T> getter) {
             return entity.map(getter).map(String::valueOf).orElse(" -- ");
         }

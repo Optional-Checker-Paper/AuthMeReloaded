@@ -17,7 +17,7 @@ public class YamlParseException extends RuntimeException {
      * @param file the file a parsing exception occurred with
      * @param configMeException the caught exception from ConfigMe
      */
-    @SuppressWarnings("optional:introduce.eliminate") // introduce-eliminate : Mis-using optional as control-flow
+    @SuppressWarnings("optional:introduce.eliminate") // introduce-eliminate
     public YamlParseException(String file, ConfigMeException configMeException) {
         super(Optional.ofNullable(configMeException.getCause()).orElse(configMeException));
         this.file = file;
