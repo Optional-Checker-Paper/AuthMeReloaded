@@ -238,7 +238,7 @@ public class PlayerAuth {
          *
          * @return the generated PlayerAuth
          */
-        @SuppressWarnings("optional:introduce.eliminate") // introduce-eliminate
+        @SuppressWarnings("optional:introduce.eliminate") // style-introduce-eliminate
         public PlayerAuth build() {
             PlayerAuth auth = new PlayerAuth();
             auth.nickname = checkNotNull(name).toLowerCase(Locale.ROOT);

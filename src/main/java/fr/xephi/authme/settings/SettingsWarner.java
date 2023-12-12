@@ -84,7 +84,7 @@ public class SettingsWarner {
         }
     }
 
-    @SuppressWarnings("optional:optional.parameter") // optional-parameter
+    @SuppressWarnings("optional:optional.parameter") // style-optional-parameter
     private static boolean isTrue(Optional<Boolean> value) {
         return value.isPresent() && value.get();
     }
