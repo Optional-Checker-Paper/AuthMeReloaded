@@ -1,92 +1,812 @@
-[INFO] Scanning for projects...
-[INFO] 
-[INFO] --------------------------< fr.xephi:authme >---------------------------
-[INFO] Building AuthMeReloaded 5.6.0-SNAPSHOT
-[INFO]   from pom.xml
-[INFO] --------------------------------[ jar ]---------------------------------
-Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/org/apache/commons/commons-email/1.6-SNAPSHOT/maven-metadata.xml
-Downloading from essentialsx-repo: https://repo.essentialsx.net/releases/org/apache/commons/commons-email/1.6-SNAPSHOT/maven-metadata.xml
-Downloading from apache-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/commons/commons-email/1.6-SNAPSHOT/maven-metadata.xml
-Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/commons/commons-email/1.6-SNAPSHOT/maven-metadata.xml
-Downloading from dmulloy2-repo-snapshots: https://repo.dmulloy2.net/nexus/repository/snapshots/org/apache/commons/commons-email/1.6-SNAPSHOT/maven-metadata.xml
-Progress (1): 1.6 kB                    Downloaded from apache-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/commons/commons-email/1.6-SNAPSHOT/maven-metadata.xml (1.6 kB at 2.6 kB/s)
-Downloading from onarandombox-repo-snapshots: https://repo.onarandombox.com/content/repositories/multiverse-snapshots/org/apache/commons/commons-email/1.6-SNAPSHOT/maven-metadata.xml
-Downloading from snapshots-repo: https://oss.sonatype.org/content/repositories/snapshots/org/apache/commons/commons-email/1.6-SNAPSHOT/maven-metadata.xml
-Downloading from apache-snapshots: https://repository.apache.org/content/repositories/snapshots/org/spigotmc/spigot-api/1.19.2-R0.1-SNAPSHOT/maven-metadata.xml
-Downloading from essentialsx-repo: https://repo.essentialsx.net/releases/org/spigotmc/spigot-api/1.19.2-R0.1-SNAPSHOT/maven-metadata.xml
-Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.19.2-R0.1-SNAPSHOT/maven-metadata.xml
-Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/org/spigotmc/spigot-api/1.19.2-R0.1-SNAPSHOT/maven-metadata.xml
-Progress (1): 1.5 kB                    Downloaded from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.19.2-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 17 kB/s)
-Downloading from dmulloy2-repo-snapshots: https://repo.dmulloy2.net/nexus/repository/snapshots/org/spigotmc/spigot-api/1.19.2-R0.1-SNAPSHOT/maven-metadata.xml
-Downloading from onarandombox-repo-snapshots: https://repo.onarandombox.com/content/repositories/multiverse-snapshots/org/spigotmc/spigot-api/1.19.2-R0.1-SNAPSHOT/maven-metadata.xml
-Downloading from snapshots-repo: https://oss.sonatype.org/content/repositories/snapshots/org/spigotmc/spigot-api/1.19.2-R0.1-SNAPSHOT/maven-metadata.xml
-Downloading from apache-snapshots: https://repository.apache.org/content/repositories/snapshots/ru/tehkode/PermissionsEx/1.23.5-SNAPSHOT/maven-metadata.xml
-Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/ru/tehkode/PermissionsEx/1.23.5-SNAPSHOT/maven-metadata.xml
-Downloading from essentialsx-repo: https://repo.essentialsx.net/releases/ru/tehkode/PermissionsEx/1.23.5-SNAPSHOT/maven-metadata.xml
-Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/ru/tehkode/PermissionsEx/1.23.5-SNAPSHOT/maven-metadata.xml
-Downloading from dmulloy2-repo-snapshots: https://repo.dmulloy2.net/nexus/repository/snapshots/ru/tehkode/PermissionsEx/1.23.5-SNAPSHOT/maven-metadata.xml
-Downloading from onarandombox-repo-snapshots: https://repo.onarandombox.com/content/repositories/multiverse-snapshots/ru/tehkode/PermissionsEx/1.23.5-SNAPSHOT/maven-metadata.xml
-Progress (1): 776 B                   Downloaded from codemc-repo: https://repo.codemc.io/repository/maven-public/ru/tehkode/PermissionsEx/1.23.5-SNAPSHOT/maven-metadata.xml (776 B at 4.3 kB/s)
-Downloading from snapshots-repo: https://oss.sonatype.org/content/repositories/snapshots/ru/tehkode/PermissionsEx/1.23.5-SNAPSHOT/maven-metadata.xml
-Downloading from apache-snapshots: https://repository.apache.org/content/repositories/snapshots/org/tyrannyofheaven/bukkit/zPermissions/1.4.3-SNAPSHOT/maven-metadata.xml
-Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/tyrannyofheaven/bukkit/zPermissions/1.4.3-SNAPSHOT/maven-metadata.xml
-Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/org/tyrannyofheaven/bukkit/zPermissions/1.4.3-SNAPSHOT/maven-metadata.xml
-Downloading from essentialsx-repo: https://repo.essentialsx.net/releases/org/tyrannyofheaven/bukkit/zPermissions/1.4.3-SNAPSHOT/maven-metadata.xml
-Downloading from dmulloy2-repo-snapshots: https://repo.dmulloy2.net/nexus/repository/snapshots/org/tyrannyofheaven/bukkit/zPermissions/1.4.3-SNAPSHOT/maven-metadata.xml
-Progress (1): 791 B                   Downloading from onarandombox-repo-snapshots: https://repo.onarandombox.com/content/repositories/multiverse-snapshots/org/tyrannyofheaven/bukkit/zPermissions/1.4.3-SNAPSHOT/maven-metadata.xml
-Downloaded from codemc-repo: https://repo.codemc.io/repository/maven-public/org/tyrannyofheaven/bukkit/zPermissions/1.4.3-SNAPSHOT/maven-metadata.xml (791 B at 4.3 kB/s)
-Downloading from snapshots-repo: https://oss.sonatype.org/content/repositories/snapshots/org/tyrannyofheaven/bukkit/zPermissions/1.4.3-SNAPSHOT/maven-metadata.xml
-Downloading from apache-snapshots: https://repository.apache.org/content/repositories/snapshots/de/luricos/bukkit/xAuth/2.6.1-SNAPSHOT/maven-metadata.xml
-Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/de/luricos/bukkit/xAuth/2.6.1-SNAPSHOT/maven-metadata.xml
-Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/de/luricos/bukkit/xAuth/2.6.1-SNAPSHOT/maven-metadata.xml
-Downloading from essentialsx-repo: https://repo.essentialsx.net/releases/de/luricos/bukkit/xAuth/2.6.1-SNAPSHOT/maven-metadata.xml
-Downloading from dmulloy2-repo-snapshots: https://repo.dmulloy2.net/nexus/repository/snapshots/de/luricos/bukkit/xAuth/2.6.1-SNAPSHOT/maven-metadata.xml
-Progress (1): 985 B                   Downloading from onarandombox-repo-snapshots: https://repo.onarandombox.com/content/repositories/multiverse-snapshots/de/luricos/bukkit/xAuth/2.6.1-SNAPSHOT/maven-metadata.xml
-Downloaded from codemc-repo: https://repo.codemc.io/repository/maven-public/de/luricos/bukkit/xAuth/2.6.1-SNAPSHOT/maven-metadata.xml (985 B at 5.6 kB/s)
-Downloading from snapshots-repo: https://oss.sonatype.org/content/repositories/snapshots/de/luricos/bukkit/xAuth/2.6.1-SNAPSHOT/maven-metadata.xml
-Downloading from apache-snapshots: https://repository.apache.org/content/repositories/snapshots/ch/jalu/datasourcecolumns/0.1.1-SNAPSHOT/maven-metadata.xml
-Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/ch/jalu/datasourcecolumns/0.1.1-SNAPSHOT/maven-metadata.xml
-Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/ch/jalu/datasourcecolumns/0.1.1-SNAPSHOT/maven-metadata.xml
-Downloading from essentialsx-repo: https://repo.essentialsx.net/releases/ch/jalu/datasourcecolumns/0.1.1-SNAPSHOT/maven-metadata.xml
-Downloading from dmulloy2-repo-snapshots: https://repo.dmulloy2.net/nexus/repository/snapshots/ch/jalu/datasourcecolumns/0.1.1-SNAPSHOT/maven-metadata.xml
-Downloading from onarandombox-repo-snapshots: https://repo.onarandombox.com/content/repositories/multiverse-snapshots/ch/jalu/datasourcecolumns/0.1.1-SNAPSHOT/maven-metadata.xml
-Progress (1): 774 B                   Downloaded from codemc-repo: https://repo.codemc.io/repository/maven-public/ch/jalu/datasourcecolumns/0.1.1-SNAPSHOT/maven-metadata.xml (774 B at 4.5 kB/s)
-Downloading from snapshots-repo: https://oss.sonatype.org/content/repositories/snapshots/ch/jalu/datasourcecolumns/0.1.1-SNAPSHOT/maven-metadata.xml
-[INFO] 
-[INFO] --- enforcer:3.1.0:enforce (enforce-environment) @ authme ---
-[INFO] 
-[INFO] --- jacoco:0.8.8:prepare-agent (pre-unit-test) @ authme ---
-[INFO] argLine set to -javaagent:/Users/yoo/.m2/repository/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar=destfile=/Users/yoo/tmp/experiments/optional-paper-counts-repos/AuthMeReloaded/target/jacoco.exec
-[INFO] 
-[INFO] --- resources:3.3.0:resources (default-resources) @ authme ---
-[INFO] Copying 1 resource
-[INFO] Copying 68 resources
-[INFO] Copying 59 resources to ./messages/
-[INFO] 
-[INFO] --- compiler:3.10.1:compile (default-compile) @ authme ---
-Downloading from essentialsx-repo: https://repo.essentialsx.net/releases/org/checkerframework/checker/3.41.1-SNAPSHOT/maven-metadata.xml
-Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/org/checkerframework/checker/3.41.1-SNAPSHOT/maven-metadata.xml
-Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/checkerframework/checker/3.41.1-SNAPSHOT/maven-metadata.xml
-Downloading from apache-snapshots: https://repository.apache.org/content/repositories/snapshots/org/checkerframework/checker/3.41.1-SNAPSHOT/maven-metadata.xml
-Downloading from dmulloy2-repo-snapshots: https://repo.dmulloy2.net/nexus/repository/snapshots/org/checkerframework/checker/3.41.1-SNAPSHOT/maven-metadata.xml
-Downloading from onarandombox-repo-snapshots: https://repo.onarandombox.com/content/repositories/multiverse-snapshots/org/checkerframework/checker/3.41.1-SNAPSHOT/maven-metadata.xml
-Downloading from apache-snapshots: https://repository.apache.org/content/repositories/snapshots/org/checkerframework/checker-qual/3.41.1-SNAPSHOT/maven-metadata.xml
-Downloading from essentialsx-repo: https://repo.essentialsx.net/releases/org/checkerframework/checker-qual/3.41.1-SNAPSHOT/maven-metadata.xml
-Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/org/checkerframework/checker-qual/3.41.1-SNAPSHOT/maven-metadata.xml
-Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/checkerframework/checker-qual/3.41.1-SNAPSHOT/maven-metadata.xml
-Downloading from dmulloy2-repo-snapshots: https://repo.dmulloy2.net/nexus/repository/snapshots/org/checkerframework/checker-qual/3.41.1-SNAPSHOT/maven-metadata.xml
-Downloading from onarandombox-repo-snapshots: https://repo.onarandombox.com/content/repositories/multiverse-snapshots/org/checkerframework/checker-qual/3.41.1-SNAPSHOT/maven-metadata.xml
-Downloading from apache-snapshots: https://repository.apache.org/content/repositories/snapshots/org/checkerframework/checker-util/3.41.1-SNAPSHOT/maven-metadata.xml
-Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/org/checkerframework/checker-util/3.41.1-SNAPSHOT/maven-metadata.xml
-Downloading from essentialsx-repo: https://repo.essentialsx.net/releases/org/checkerframework/checker-util/3.41.1-SNAPSHOT/maven-metadata.xml
-Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/checkerframework/checker-util/3.41.1-SNAPSHOT/maven-metadata.xml
-Downloading from dmulloy2-repo-snapshots: https://repo.dmulloy2.net/nexus/repository/snapshots/org/checkerframework/checker-util/3.41.1-SNAPSHOT/maven-metadata.xml
-Downloading from onarandombox-repo-snapshots: https://repo.onarandombox.com/content/repositories/multiverse-snapshots/org/checkerframework/checker-util/3.41.1-SNAPSHOT/maven-metadata.xml
-[INFO] Changes detected - recompiling the module!
-[INFO] Compiling 379 source files to /Users/yoo/tmp/experiments/optional-paper-counts-repos/AuthMeReloaded/target/classes
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time:  6.305 s
-[INFO] Finished at: 2023-12-14T12:06:08-08:00
-[INFO] ------------------------------------------------------------------------
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/BukkitService.java:332: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public Optional<Boolean> isBungeeCordConfiguredForSpigot() {
+                             ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/BukkitService.java:332: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public Optional<Boolean> isBungeeCordConfiguredForSpigot() {
+                             ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/BukkitService.java:335: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+            return Optional.of(spigotConfig.getBoolean("settings.bungeecord"));
+                              ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/BukkitService.java:335: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+            return Optional.of(spigotConfig.getBoolean("settings.bungeecord"));
+                              ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/BukkitService.java:335: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+            return Optional.of(spigotConfig.getBoolean("settings.bungeecord"));
+                           ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/BukkitService.java:332: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public Optional<Boolean> isBungeeCordConfiguredForSpigot() {
+                             ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/BukkitService.java:337: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+            return Optional.empty();
+                                 ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/BukkitService.java:337: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+            return Optional.empty();
+                                 ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/BukkitService.java:337: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+            return Optional.empty();
+                           ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/auth/PlayerAuth.java:244: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+            auth.realName = Optional.ofNullable(realName).orElse("Player");
+                                                                ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/auth/PlayerAuth.java:244: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+            auth.realName = Optional.ofNullable(realName).orElse("Player");
+                                                         ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/auth/PlayerAuth.java:244: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+            auth.realName = Optional.ofNullable(realName).orElse("Player");
+                                               ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/auth/PlayerAuth.java:244: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+            auth.realName = Optional.ofNullable(realName).orElse("Player");
+                                    ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/auth/PlayerAuth.java:245: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+            auth.password = Optional.ofNullable(password).orElse(new HashedPassword(""));
+                                                                ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/auth/PlayerAuth.java:245: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+            auth.password = Optional.ofNullable(password).orElse(new HashedPassword(""));
+                                                         ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/auth/PlayerAuth.java:245: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+            auth.password = Optional.ofNullable(password).orElse(new HashedPassword(""));
+                                               ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/auth/PlayerAuth.java:245: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+            auth.password = Optional.ofNullable(password).orElse(new HashedPassword(""));
+                                    ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/auth/PlayerAuth.java:257: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+            auth.world = Optional.ofNullable(world).orElse("world");
+                                                          ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/auth/PlayerAuth.java:257: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+            auth.world = Optional.ofNullable(world).orElse("world");
+                                                   ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/auth/PlayerAuth.java:257: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+            auth.world = Optional.ofNullable(world).orElse("world");
+                                            ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/auth/PlayerAuth.java:257: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+            auth.world = Optional.ofNullable(world).orElse("world");
+                                 ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/CommandMapper.java:204: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<X>orElseThrow(java.util.function.Supplier<? extends X>) [METHOD]
+            .orElseThrow(() -> new IllegalStateException("Command does not have any labels set"));
+                        ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/CommandMapper.java:204: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<X>orElseThrow(java.util.function.Supplier<? extends X>) [METHOD]
+            .orElseThrow(() -> new IllegalStateException("Command does not have any labels set"));
+            ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/message/updater/MessageUpdater.java:159: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<X>orElseThrow(java.util.function.Supplier<? extends X>) [METHOD]
+                .findFirst().orElseThrow(() -> new IllegalStateException(path));
+                                        ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/message/updater/MessageUpdater.java:159: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<X>orElseThrow(java.util.function.Supplier<? extends X>) [METHOD]
+                .findFirst().orElseThrow(() -> new IllegalStateException(path));
+                            ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/limbo/LimboService.java:139: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        Optional<LimboPlayer> limboPlayer = getLimboOrLogError(player, "reset tasks");
+                              ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/limbo/LimboService.java:139: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        Optional<LimboPlayer> limboPlayer = getLimboOrLogError(player, "reset tasks");
+                                                              ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/limbo/LimboService.java:140: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+        limboPlayer.ifPresent(limbo -> {
+                             ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/limbo/LimboService.java:140: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+        limboPlayer.ifPresent(limbo -> {
+                   ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/limbo/LimboService.java:144: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        authGroupHandler.setGroup(player, limboPlayer.orElse(null), AuthGroupType.REGISTERED_UNAUTHENTICATED);
+                                                            ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/limbo/LimboService.java:144: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        authGroupHandler.setGroup(player, limboPlayer.orElse(null), AuthGroupType.REGISTERED_UNAUTHENTICATED);
+                                                     ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/limbo/LimboService.java:155: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+            .ifPresent(limbo -> taskManager.registerMessageTask(player, limbo, messageType));
+                      ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/limbo/LimboService.java:155: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+            .ifPresent(limbo -> taskManager.registerMessageTask(player, limbo, messageType));
+            ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/limbo/LimboService.java:163: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+            .ifPresent(limbo -> LimboPlayerTaskManager.setMuted(limbo.getMessageTask(), true));
+                      ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/limbo/LimboService.java:163: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+            .ifPresent(limbo -> LimboPlayerTaskManager.setMuted(limbo.getMessageTask(), true));
+            ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/limbo/LimboService.java:171: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+            .ifPresent(limbo -> LimboPlayerTaskManager.setMuted(limbo.getMessageTask(), false));
+                      ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/limbo/LimboService.java:171: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+            .ifPresent(limbo -> LimboPlayerTaskManager.setMuted(limbo.getMessageTask(), false));
+            ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/limbo/LimboService.java:181: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    private Optional<LimboPlayer> getLimboOrLogError(Player player, String context) {
+                                  ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/limbo/LimboService.java:181: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    private Optional<LimboPlayer> getLimboOrLogError(Player player, String context) {
+                                  ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/limbo/LimboService.java:186: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(limbo);
+                                  ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/limbo/LimboService.java:186: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(limbo);
+                                  ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/limbo/LimboService.java:186: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(limbo);
+                       ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/CommandManager.java:149: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+        return (!command.getIfNumberOfAccountsAtLeast().isPresent()
+                                                                 ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/CommandManager.java:149: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+        return (!command.getIfNumberOfAccountsAtLeast().isPresent()
+                                                       ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/CommandManager.java:150: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+                || command.getIfNumberOfAccountsAtLeast().get() <= numberOfOtherAccounts)
+                                                             ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/CommandManager.java:150: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+                || command.getIfNumberOfAccountsAtLeast().get() <= numberOfOtherAccounts)
+                                                         ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/CommandManager.java:151: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+            && (!command.getIfNumberOfAccountsLessThan().isPresent()
+                                                                  ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/CommandManager.java:151: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+            && (!command.getIfNumberOfAccountsLessThan().isPresent()
+                                                        ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/CommandManager.java:152: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+                || command.getIfNumberOfAccountsLessThan().get() > numberOfOtherAccounts);
+                                                              ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/CommandManager.java:152: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+                || command.getIfNumberOfAccountsLessThan().get() > numberOfOtherAccounts);
+                                                          ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/bungeecord/MessageType.java:33: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public static Optional<MessageType> fromId(String id) {
+                                        ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/bungeecord/MessageType.java:33: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public static Optional<MessageType> fromId(String id) {
+                                        ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/bungeecord/MessageType.java:36: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+                return Optional.of(current);
+                                  ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/bungeecord/MessageType.java:36: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+                return Optional.of(current);
+                                  ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/bungeecord/MessageType.java:36: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+                return Optional.of(current);
+                               ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/bungeecord/MessageType.java:33: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public static Optional<MessageType> fromId(String id) {
+                                        ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/bungeecord/MessageType.java:39: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.empty();
+                             ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/bungeecord/MessageType.java:39: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+        return Optional.empty();
+                             ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/bungeecord/MessageType.java:39: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+        return Optional.empty();
+                       ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/GeoIpService.java:286: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        return getCountry(ip).map(Country::getIsoCode).orElse("--");
+                                                             ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/GeoIpService.java:286: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        return getCountry(ip).map(Country::getIsoCode).orElse("--");
+                                                      ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/GeoIpService.java:286: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+        return getCountry(ip).map(Country::getIsoCode).orElse("--");
+                                 ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/GeoIpService.java:286: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+        return getCountry(ip).map(Country::getIsoCode).orElse("--");
+                             ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/GeoIpService.java:299: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        return getCountry(ip).map(Country::getName).orElse("N/A");
+                                                          ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/GeoIpService.java:299: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        return getCountry(ip).map(Country::getName).orElse("N/A");
+                                                   ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/GeoIpService.java:299: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+        return getCountry(ip).map(Country::getName).orElse("N/A");
+                                 ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/GeoIpService.java:299: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+        return getCountry(ip).map(Country::getName).orElse("N/A");
+                             ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/GeoIpService.java:314: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    private Optional<Country> getCountry(String ip) {
+                              ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/GeoIpService.java:314: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    private Optional<Country> getCountry(String ip) {
+                              ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/GeoIpService.java:316: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+            return Optional.empty();
+                                 ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/GeoIpService.java:316: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+            return Optional.empty();
+                                 ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/GeoIpService.java:316: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+            return Optional.empty();
+                           ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/GeoIpService.java:314: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    private Optional<Country> getCountry(String ip) {
+                              ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/GeoIpService.java:323: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+            return Optional.ofNullable(databaseReader.getCountry(address)).map(CountryResponse::getCountry);
+                                                                              ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/GeoIpService.java:323: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+            return Optional.ofNullable(databaseReader.getCountry(address)).map(CountryResponse::getCountry);
+                                                                              ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/GeoIpService.java:323: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+            return Optional.ofNullable(databaseReader.getCountry(address)).map(CountryResponse::getCountry);
+                                                                          ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/GeoIpService.java:323: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+            return Optional.ofNullable(databaseReader.getCountry(address)).map(CountryResponse::getCountry);
+                                      ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/GeoIpService.java:323: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+            return Optional.ofNullable(databaseReader.getCountry(address)).map(CountryResponse::getCountry);
+                           ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/GeoIpService.java:314: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    private Optional<Country> getCountry(String ip) {
+                              ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/GeoIpService.java:331: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.empty();
+                             ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/GeoIpService.java:331: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+        return Optional.empty();
+                             ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/GeoIpService.java:331: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+        return Optional.empty();
+                       ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/CommandMigrationService.java:48: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+                Optional.of(settingsMigrationService.getOldOtherAccountsCommandThreshold()));
+                           ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/CommandMigrationService.java:48: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+                Optional.of(settingsMigrationService.getOldOtherAccountsCommandThreshold()));
+                           ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/CommandMigrationService.java:48: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+                Optional.of(settingsMigrationService.getOldOtherAccountsCommandThreshold()));
+                        ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/OnLoginCommand.java:10: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    private Optional<Integer> ifNumberOfAccountsAtLeast = Optional.empty();
+                              ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/OnLoginCommand.java:10: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    private Optional<Integer> ifNumberOfAccountsAtLeast = Optional.empty();
+                                                                        ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/OnLoginCommand.java:10: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    private Optional<Integer> ifNumberOfAccountsAtLeast = Optional.empty();
+                                                                        ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/OnLoginCommand.java:10: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    private Optional<Integer> ifNumberOfAccountsAtLeast = Optional.empty();
+                                                                  ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/OnLoginCommand.java:11: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    private Optional<Integer> ifNumberOfAccountsLessThan = Optional.empty();
+                              ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/OnLoginCommand.java:11: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    private Optional<Integer> ifNumberOfAccountsLessThan = Optional.empty();
+                                                                         ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/OnLoginCommand.java:11: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    private Optional<Integer> ifNumberOfAccountsLessThan = Optional.empty();
+                                                                         ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/OnLoginCommand.java:11: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    private Optional<Integer> ifNumberOfAccountsLessThan = Optional.empty();
+                                                                   ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/OnLoginCommand.java:29: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        copy.ifNumberOfAccountsAtLeast = this.ifNumberOfAccountsAtLeast;
+            ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/OnLoginCommand.java:29: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        copy.ifNumberOfAccountsAtLeast = this.ifNumberOfAccountsAtLeast;
+                                             ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/OnLoginCommand.java:30: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        copy.ifNumberOfAccountsLessThan = this.ifNumberOfAccountsLessThan;
+            ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/OnLoginCommand.java:30: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        copy.ifNumberOfAccountsLessThan = this.ifNumberOfAccountsLessThan;
+                                              ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/OnLoginCommand.java:34: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public Optional<Integer> getIfNumberOfAccountsAtLeast() {
+                             ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/OnLoginCommand.java:34: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public Optional<Integer> getIfNumberOfAccountsAtLeast() {
+                             ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/OnLoginCommand.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return ifNumberOfAccountsAtLeast;
+               ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/OnLoginCommand.java:38: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public void setIfNumberOfAccountsAtLeast(Optional<Integer> ifNumberOfAccountsAtLeast) {
+                                                               ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/OnLoginCommand.java:39: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        this.ifNumberOfAccountsAtLeast = ifNumberOfAccountsAtLeast;
+            ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/OnLoginCommand.java:39: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        this.ifNumberOfAccountsAtLeast = ifNumberOfAccountsAtLeast;
+                                         ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/OnLoginCommand.java:42: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public Optional<Integer> getIfNumberOfAccountsLessThan() {
+                             ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/OnLoginCommand.java:42: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public Optional<Integer> getIfNumberOfAccountsLessThan() {
+                             ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/OnLoginCommand.java:43: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return ifNumberOfAccountsLessThan;
+               ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/OnLoginCommand.java:46: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public void setIfNumberOfAccountsLessThan(Optional<Integer> ifNumberOfAccountsLessThan) {
+                                                                ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/OnLoginCommand.java:47: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        this.ifNumberOfAccountsLessThan = ifNumberOfAccountsLessThan;
+            ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/commandconfig/OnLoginCommand.java:47: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        this.ifNumberOfAccountsLessThan = ifNumberOfAccountsLessThan;
+                                          ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/SettingsMigrationService.java:228: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+            boolean oldValue = Optional.ofNullable(reader.getBoolean(oldPath)).orElse(false);
+                                                                                     ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/SettingsMigrationService.java:228: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+            boolean oldValue = Optional.ofNullable(reader.getBoolean(oldPath)).orElse(false);
+                                                                              ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/SettingsMigrationService.java:228: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+            boolean oldValue = Optional.ofNullable(reader.getBoolean(oldPath)).orElse(false);
+                                                  ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/SettingsMigrationService.java:228: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+            boolean oldValue = Optional.ofNullable(reader.getBoolean(oldPath)).orElse(false);
+                                       ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/HasPermissionChecker.java:112: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        Optional<? extends PermissionNode> permNode = PERMISSION_NODE_CLASSES.stream()
+                                           ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/HasPermissionChecker.java:116: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+            .findFirst();
+                      ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/HasPermissionChecker.java:117: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+        if (permNode.isPresent()) {
+                              ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/HasPermissionChecker.java:117: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+        if (permNode.isPresent()) {
+                    ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/HasPermissionChecker.java:118: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+            return permNode.get();
+                               ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/HasPermissionChecker.java:118: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+            return permNode.get();
+                           ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/SettingsWarner.java:63: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        if (isTrue(bukkitService.isBungeeCordConfiguredForSpigot())
+                                                                ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/SettingsWarner.java:70: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        if (!isTrue(bukkitService.isBungeeCordConfiguredForSpigot())
+                                                                 ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/SettingsWarner.java:87: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    private static boolean isTrue(Optional<Boolean> value) {
+                                                    ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/SettingsWarner.java:88: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+        return value.isPresent() && value.get();
+                              ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/SettingsWarner.java:88: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+        return value.isPresent() && value.get();
+                    ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/SettingsWarner.java:88: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+        return value.isPresent() && value.get();
+                                             ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/settings/SettingsWarner.java:88: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+        return value.isPresent() && value.get();
+                                         ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/LimboPlayerViewer.java:90: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        private final Optional<Player> player;
+                                       ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/LimboPlayerViewer.java:91: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        private final Optional<LimboPlayer> memoryLimbo;
+                                            ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/LimboPlayerViewer.java:92: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        private final Optional<LimboPlayer> diskLimbo;
+                                            ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/LimboPlayerViewer.java:103: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+            this.player = Optional.ofNullable(player);
+                ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/LimboPlayerViewer.java:103: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+            this.player = Optional.ofNullable(player);
+                                             ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/LimboPlayerViewer.java:103: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+            this.player = Optional.ofNullable(player);
+                                             ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/LimboPlayerViewer.java:103: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+            this.player = Optional.ofNullable(player);
+                                  ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/LimboPlayerViewer.java:104: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+            this.memoryLimbo = Optional.ofNullable(memoryLimbo);
+                ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/LimboPlayerViewer.java:104: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+            this.memoryLimbo = Optional.ofNullable(memoryLimbo);
+                                                  ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/LimboPlayerViewer.java:104: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+            this.memoryLimbo = Optional.ofNullable(memoryLimbo);
+                                                  ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/LimboPlayerViewer.java:104: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+            this.memoryLimbo = Optional.ofNullable(memoryLimbo);
+                                       ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/LimboPlayerViewer.java:105: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+            this.diskLimbo = Optional.ofNullable(diskLimbo);
+                ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/LimboPlayerViewer.java:105: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+            this.diskLimbo = Optional.ofNullable(diskLimbo);
+                                                ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/LimboPlayerViewer.java:105: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+            this.diskLimbo = Optional.ofNullable(diskLimbo);
+                                                ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/LimboPlayerViewer.java:105: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+            this.diskLimbo = Optional.ofNullable(diskLimbo);
+                                     ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/LimboPlayerViewer.java:131: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+                + getData(player, playerGetter)
+                          ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/LimboPlayerViewer.java:133: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+                + getData(memoryLimbo, limboGetter)
+                          ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/LimboPlayerViewer.java:135: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+                + getData(diskLimbo, limboGetter));
+                          ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/LimboPlayerViewer.java:139: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        static <E, T> String getData(Optional<E> entity, Function<E, T> getter) {
+                                                 ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/LimboPlayerViewer.java:140: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+            return entity.map(getter).map(String::valueOf).orElse(" -- ");
+                                                                 ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/LimboPlayerViewer.java:140: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+            return entity.map(getter).map(String::valueOf).orElse(" -- ");
+                                                          ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/LimboPlayerViewer.java:140: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+            return entity.map(getter).map(String::valueOf).orElse(" -- ");
+                                         ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/LimboPlayerViewer.java:140: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+            return entity.map(getter).map(String::valueOf).orElse(" -- ");
+                                     ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/LimboPlayerViewer.java:140: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+            return entity.map(getter).map(String::valueOf).orElse(" -- ");
+                             ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/LimboPlayerViewer.java:140: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+            return entity.map(getter).map(String::valueOf).orElse(" -- ");
+                         ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMeApi.java:143: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public Optional<AuthMePlayer> getPlayerInfo(String playerName) {
+                                  ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMeApi.java:143: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public Optional<AuthMePlayer> getPlayerInfo(String playerName) {
+                                  ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMeApi.java:148: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return AuthMePlayerImpl.fromPlayerAuth(auth);
+                                              ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayer.java:28: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Optional<UUID> getUuid();
+                   ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayer.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Optional<String> getEmail();
+                     ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayer.java:48: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Optional<String> getRegistrationIpAddress();
+                     ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayer.java:55: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Optional<Instant> getLastLoginDate();
+                      ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayer.java:63: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    Optional<String> getLastLoginIpAddress();
+                     ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/MySqlDefaultChanger.java:273: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+            .findFirst().orElse(null);
+                               ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/command/executable/authme/debug/MySqlDefaultChanger.java:273: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+            .findFirst().orElse(null);
+                        ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/limbo/persistence/LimboPlayerDeserializer.java:100: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+            String legacyGroup = ofNullable(jsonObject.get(GROUP_LEGACY)).map(JsonElement::getAsString).orElse(null);
+                                                                                                              ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/limbo/persistence/LimboPlayerDeserializer.java:100: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+            String legacyGroup = ofNullable(jsonObject.get(GROUP_LEGACY)).map(JsonElement::getAsString).orElse(null);
+                                                                                                       ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/limbo/persistence/LimboPlayerDeserializer.java:100: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+            String legacyGroup = ofNullable(jsonObject.get(GROUP_LEGACY)).map(JsonElement::getAsString).orElse(null);
+                                                                             ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/limbo/persistence/LimboPlayerDeserializer.java:100: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+            String legacyGroup = ofNullable(jsonObject.get(GROUP_LEGACY)).map(JsonElement::getAsString).orElse(null);
+                                                                         ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/limbo/persistence/LimboPlayerDeserializer.java:100: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+            String legacyGroup = ofNullable(jsonObject.get(GROUP_LEGACY)).map(JsonElement::getAsString).orElse(null);
+                                           ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/converter/LoginSecurityConverter.java:125: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+            .map(Timestamp::getTime).orElse(null);
+                                           ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/converter/LoginSecurityConverter.java:125: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+            .map(Timestamp::getTime).orElse(null);
+                                    ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/converter/LoginSecurityConverter.java:125: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+            .map(Timestamp::getTime).orElse(null);
+                ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/converter/LoginSecurityConverter.java:125: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+            .map(Timestamp::getTime).orElse(null);
+            ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/converter/LoginSecurityConverter.java:124: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        Long lastLoginMillis = Optional.ofNullable(resultSet.getTimestamp("last_login"))
+                                                  ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/converter/LoginSecurityConverter.java:124: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        Long lastLoginMillis = Optional.ofNullable(resultSet.getTimestamp("last_login"))
+                                       ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/converter/LoginSecurityConverter.java:127: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+            .map(Date::getTime).orElse(System.currentTimeMillis());
+                                      ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/converter/LoginSecurityConverter.java:127: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+            .map(Date::getTime).orElse(System.currentTimeMillis());
+                               ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/converter/LoginSecurityConverter.java:127: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+            .map(Date::getTime).orElse(System.currentTimeMillis());
+                ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/converter/LoginSecurityConverter.java:127: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+            .map(Date::getTime).orElse(System.currentTimeMillis());
+            ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/converter/LoginSecurityConverter.java:126: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        long regDate = Optional.ofNullable(resultSet.getDate("registration_date"))
+                                          ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/converter/LoginSecurityConverter.java:126: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        long regDate = Optional.ofNullable(resultSet.getDate("registration_date"))
+                               ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/limbo/persistence/DistributedFilesPersistenceHandler.java:174: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElseGet(java.util.function.Supplier<? extends T>) [METHOD]
+                .orElseGet(HashMap::new);
+                          ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/limbo/persistence/DistributedFilesPersistenceHandler.java:174: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElseGet(java.util.function.Supplier<? extends T>) [METHOD]
+                .orElseGet(HashMap::new);
+                ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/limbo/persistence/DistributedFilesPersistenceHandler.java:173: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+            Map<String, LimboPlayer> limbosToSave = Optional.ofNullable(readLimboPlayers(file))
+                                                                       ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/data/limbo/persistence/DistributedFilesPersistenceHandler.java:173: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+            Map<String, LimboPlayer> limbosToSave = Optional.ofNullable(readLimboPlayers(file))
+                                                            ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:34: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    private final LoadingCache<String, Optional<PlayerAuth>> cachedAuths;
+                                               ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:53: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        cachedAuths = CacheBuilder.newBuilder()
+        ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+            .build(new CacheLoader<String, Optional<PlayerAuth>>() {
+                  ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+            .build(new CacheLoader<String, Optional<PlayerAuth>>() {
+                                                   ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+            .build(new CacheLoader<String, Optional<PlayerAuth>>() {
+                                                   ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+            .build(new CacheLoader<String, Optional<PlayerAuth>>() {
+                                                   ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:58: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+                public Optional<PlayerAuth> load(String key) {
+                                            ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:58: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+                public Optional<PlayerAuth> load(String key) {
+                                            ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:59: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+                    return Optional.ofNullable(source.getAuth(key));
+                                              ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:59: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+                    return Optional.ofNullable(source.getAuth(key));
+                                              ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:59: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+                    return Optional.ofNullable(source.getAuth(key));
+                                   ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:63: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+                public ListenableFuture<Optional<PlayerAuth>> reload(final String key, Optional<PlayerAuth> oldValue) {
+                                                ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:63: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+                public ListenableFuture<Optional<PlayerAuth>> reload(final String key, Optional<PlayerAuth> oldValue) {
+                                                                                                            ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:63: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+                public ListenableFuture<Optional<PlayerAuth>> reload(final String key, Optional<PlayerAuth> oldValue) {
+                                                ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:64: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+                    return executorService.submit(() -> load(key));
+                                                 ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:64: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+                    return executorService.submit(() -> load(key));
+                                                            ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:69: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public LoadingCache<String, Optional<PlayerAuth>> getCachedAuths() {
+                                        ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:69: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public LoadingCache<String, Optional<PlayerAuth>> getCachedAuths() {
+                                        ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:70: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return cachedAuths;
+               ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:91: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        Optional<PlayerAuth> pAuthOpt = cachedAuths.getIfPresent(user);
+                             ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:91: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        Optional<PlayerAuth> pAuthOpt = cachedAuths.getIfPresent(user);
+                                                                ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:92: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+        if (pAuthOpt != null && pAuthOpt.isPresent()) {
+                                                  ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:92: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+        if (pAuthOpt != null && pAuthOpt.isPresent()) {
+                                        ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:93: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+            return pAuthOpt.get().getPassword();
+                               ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:93: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+            return pAuthOpt.get().getPassword();
+                           ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:101: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        return cachedAuths.getUnchecked(user).orElse(null);
+                                                    ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:101: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        return cachedAuths.getUnchecked(user).orElse(null);
+                                             ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:261: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+            .orElse(DataSourceValueImpl.unknownRow());
+                   ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:261: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+            .orElse(DataSourceValueImpl.unknownRow());
+            ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:260: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+            .map(auth -> DataSourceValueImpl.of(auth.getEmail()))
+                ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/datasource/CacheDataSource.java:260: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+            .map(auth -> DataSourceValueImpl.of(auth.getEmail()))
+            ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/bungeecord/BungeeReceiver.java:46: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+            this.isEnabled = bukkitService.isBungeeCordConfiguredForSpigot().orElse(false);
+                                                                                   ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/bungeecord/BungeeReceiver.java:46: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+            this.isEnabled = bukkitService.isBungeeCordConfiguredForSpigot().orElse(false);
+                                                                            ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/bungeecord/BungeeReceiver.java:70: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        Optional<MessageType> type = MessageType.fromId(typeId);
+                              ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/bungeecord/BungeeReceiver.java:70: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        Optional<MessageType> type = MessageType.fromId(typeId);
+                                                       ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/bungeecord/BungeeReceiver.java:71: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+        if (!type.isPresent()) {
+                           ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/bungeecord/BungeeReceiver.java:71: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+        if (!type.isPresent()) {
+                 ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/bungeecord/BungeeReceiver.java:81: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+            logger.warning("Received invalid forwarded plugin message of type " + type.get().name()
+                                                                                          ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/bungeecord/BungeeReceiver.java:81: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+            logger.warning("Received invalid forwarded plugin message of type " + type.get().name()
+                                                                                      ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/bungeecord/BungeeReceiver.java:87: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+        switch (type.get()) {
+                        ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/bungeecord/BungeeReceiver.java:87: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+        switch (type.get()) {
+                    ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/bungeecord/BungeeReceiver.java:104: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        Optional<MessageType> type = MessageType.fromId(typeId);
+                              ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/bungeecord/BungeeReceiver.java:104: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        Optional<MessageType> type = MessageType.fromId(typeId);
+                                                       ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/bungeecord/BungeeReceiver.java:105: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+        if (!type.isPresent()) {
+                           ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/bungeecord/BungeeReceiver.java:105: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+        if (!type.isPresent()) {
+                 ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/bungeecord/BungeeReceiver.java:115: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+            logger.warning("Received invalid plugin message of type " + type.get().name()
+                                                                                ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/bungeecord/BungeeReceiver.java:115: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+            logger.warning("Received invalid plugin message of type " + type.get().name()
+                                                                            ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/bungeecord/BungeeReceiver.java:121: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+        switch (type.get()) {
+                        ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/bungeecord/BungeeReceiver.java:121: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+        switch (type.get()) {
+                    ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    static Optional<AuthMePlayer> fromPlayerAuth(PlayerAuth playerAuth) {
+                                  ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    static Optional<AuthMePlayer> fromPlayerAuth(PlayerAuth playerAuth) {
+                                  ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:37: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+            return Optional.empty();
+                                 ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:37: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+            return Optional.empty();
+                                 ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:37: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+            return Optional.empty();
+                           ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    static Optional<AuthMePlayer> fromPlayerAuth(PlayerAuth playerAuth) {
+                                  ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:49: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.of(authMeUser);
+                          ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:49: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+        return Optional.of(authMeUser);
+                          ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:49: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+        return Optional.of(authMeUser);
+                       ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:57: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public Optional<UUID> getUuid() {
+                          ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:57: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public Optional<UUID> getUuid() {
+                          ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:58: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(uuid);
+                                  ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:58: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(uuid);
+                                  ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:58: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(uuid);
+                       ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:62: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public Optional<String> getEmail() {
+                            ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:62: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public Optional<String> getEmail() {
+                            ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:63: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(email);
+                                  ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:63: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(email);
+                                  ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:63: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(email);
+                       ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:72: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public Optional<String> getRegistrationIpAddress() {
+                            ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:72: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public Optional<String> getRegistrationIpAddress() {
+                            ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:73: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(registrationIpAddress);
+                                  ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:73: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(registrationIpAddress);
+                                  ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:73: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(registrationIpAddress);
+                       ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:77: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public Optional<Instant> getLastLoginDate() {
+                             ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:77: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public Optional<Instant> getLastLoginDate() {
+                             ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:78: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable( lastLoginDate);
+                                  ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:78: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable( lastLoginDate);
+                                  ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:78: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable( lastLoginDate);
+                       ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:82: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public Optional<String> getLastLoginIpAddress() {
+                            ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:82: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    public Optional<String> getLastLoginIpAddress() {
+                            ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:83: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.ofNullable(lastLoginIpAddress);
+                                  ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:83: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(lastLoginIpAddress);
+                                  ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/api/v3/AuthMePlayerImpl.java:83: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        return Optional.ofNullable(lastLoginIpAddress);
+                       ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/yaml/YamlParseException.java:21: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        super(Optional.ofNullable(configMeException.getCause()).orElse(configMeException));
+                                                                      ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/yaml/YamlParseException.java:21: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        super(Optional.ofNullable(configMeException.getCause()).orElse(configMeException));
+                                                               ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/yaml/YamlParseException.java:21: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        super(Optional.ofNullable(configMeException.getCause()).orElse(configMeException));
+                                 ^
+AuthMeReloaded/src/main/java/fr/xephi/authme/service/yaml/YamlParseException.java:21: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+        super(Optional.ofNullable(configMeException.getCause()).orElse(configMeException));
+                      ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+269 warnings
