@@ -1,0 +1,92 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< fr.xephi:authme >---------------------------
+[INFO] Building AuthMeReloaded 5.6.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/org/apache/commons/commons-email/1.6-SNAPSHOT/maven-metadata.xml
+Downloading from essentialsx-repo: https://repo.essentialsx.net/releases/org/apache/commons/commons-email/1.6-SNAPSHOT/maven-metadata.xml
+Downloading from apache-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/commons/commons-email/1.6-SNAPSHOT/maven-metadata.xml
+Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/apache/commons/commons-email/1.6-SNAPSHOT/maven-metadata.xml
+Downloading from dmulloy2-repo-snapshots: https://repo.dmulloy2.net/nexus/repository/snapshots/org/apache/commons/commons-email/1.6-SNAPSHOT/maven-metadata.xml
+Progress (1): 1.6 kB                    Downloaded from apache-snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/commons/commons-email/1.6-SNAPSHOT/maven-metadata.xml (1.6 kB at 2.6 kB/s)
+Downloading from onarandombox-repo-snapshots: https://repo.onarandombox.com/content/repositories/multiverse-snapshots/org/apache/commons/commons-email/1.6-SNAPSHOT/maven-metadata.xml
+Downloading from snapshots-repo: https://oss.sonatype.org/content/repositories/snapshots/org/apache/commons/commons-email/1.6-SNAPSHOT/maven-metadata.xml
+Downloading from apache-snapshots: https://repository.apache.org/content/repositories/snapshots/org/spigotmc/spigot-api/1.19.2-R0.1-SNAPSHOT/maven-metadata.xml
+Downloading from essentialsx-repo: https://repo.essentialsx.net/releases/org/spigotmc/spigot-api/1.19.2-R0.1-SNAPSHOT/maven-metadata.xml
+Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.19.2-R0.1-SNAPSHOT/maven-metadata.xml
+Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/org/spigotmc/spigot-api/1.19.2-R0.1-SNAPSHOT/maven-metadata.xml
+Progress (1): 1.5 kB                    Downloaded from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.19.2-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 17 kB/s)
+Downloading from dmulloy2-repo-snapshots: https://repo.dmulloy2.net/nexus/repository/snapshots/org/spigotmc/spigot-api/1.19.2-R0.1-SNAPSHOT/maven-metadata.xml
+Downloading from onarandombox-repo-snapshots: https://repo.onarandombox.com/content/repositories/multiverse-snapshots/org/spigotmc/spigot-api/1.19.2-R0.1-SNAPSHOT/maven-metadata.xml
+Downloading from snapshots-repo: https://oss.sonatype.org/content/repositories/snapshots/org/spigotmc/spigot-api/1.19.2-R0.1-SNAPSHOT/maven-metadata.xml
+Downloading from apache-snapshots: https://repository.apache.org/content/repositories/snapshots/ru/tehkode/PermissionsEx/1.23.5-SNAPSHOT/maven-metadata.xml
+Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/ru/tehkode/PermissionsEx/1.23.5-SNAPSHOT/maven-metadata.xml
+Downloading from essentialsx-repo: https://repo.essentialsx.net/releases/ru/tehkode/PermissionsEx/1.23.5-SNAPSHOT/maven-metadata.xml
+Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/ru/tehkode/PermissionsEx/1.23.5-SNAPSHOT/maven-metadata.xml
+Downloading from dmulloy2-repo-snapshots: https://repo.dmulloy2.net/nexus/repository/snapshots/ru/tehkode/PermissionsEx/1.23.5-SNAPSHOT/maven-metadata.xml
+Downloading from onarandombox-repo-snapshots: https://repo.onarandombox.com/content/repositories/multiverse-snapshots/ru/tehkode/PermissionsEx/1.23.5-SNAPSHOT/maven-metadata.xml
+Progress (1): 776 B                   Downloaded from codemc-repo: https://repo.codemc.io/repository/maven-public/ru/tehkode/PermissionsEx/1.23.5-SNAPSHOT/maven-metadata.xml (776 B at 4.3 kB/s)
+Downloading from snapshots-repo: https://oss.sonatype.org/content/repositories/snapshots/ru/tehkode/PermissionsEx/1.23.5-SNAPSHOT/maven-metadata.xml
+Downloading from apache-snapshots: https://repository.apache.org/content/repositories/snapshots/org/tyrannyofheaven/bukkit/zPermissions/1.4.3-SNAPSHOT/maven-metadata.xml
+Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/tyrannyofheaven/bukkit/zPermissions/1.4.3-SNAPSHOT/maven-metadata.xml
+Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/org/tyrannyofheaven/bukkit/zPermissions/1.4.3-SNAPSHOT/maven-metadata.xml
+Downloading from essentialsx-repo: https://repo.essentialsx.net/releases/org/tyrannyofheaven/bukkit/zPermissions/1.4.3-SNAPSHOT/maven-metadata.xml
+Downloading from dmulloy2-repo-snapshots: https://repo.dmulloy2.net/nexus/repository/snapshots/org/tyrannyofheaven/bukkit/zPermissions/1.4.3-SNAPSHOT/maven-metadata.xml
+Progress (1): 791 B                   Downloading from onarandombox-repo-snapshots: https://repo.onarandombox.com/content/repositories/multiverse-snapshots/org/tyrannyofheaven/bukkit/zPermissions/1.4.3-SNAPSHOT/maven-metadata.xml
+Downloaded from codemc-repo: https://repo.codemc.io/repository/maven-public/org/tyrannyofheaven/bukkit/zPermissions/1.4.3-SNAPSHOT/maven-metadata.xml (791 B at 4.3 kB/s)
+Downloading from snapshots-repo: https://oss.sonatype.org/content/repositories/snapshots/org/tyrannyofheaven/bukkit/zPermissions/1.4.3-SNAPSHOT/maven-metadata.xml
+Downloading from apache-snapshots: https://repository.apache.org/content/repositories/snapshots/de/luricos/bukkit/xAuth/2.6.1-SNAPSHOT/maven-metadata.xml
+Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/de/luricos/bukkit/xAuth/2.6.1-SNAPSHOT/maven-metadata.xml
+Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/de/luricos/bukkit/xAuth/2.6.1-SNAPSHOT/maven-metadata.xml
+Downloading from essentialsx-repo: https://repo.essentialsx.net/releases/de/luricos/bukkit/xAuth/2.6.1-SNAPSHOT/maven-metadata.xml
+Downloading from dmulloy2-repo-snapshots: https://repo.dmulloy2.net/nexus/repository/snapshots/de/luricos/bukkit/xAuth/2.6.1-SNAPSHOT/maven-metadata.xml
+Progress (1): 985 B                   Downloading from onarandombox-repo-snapshots: https://repo.onarandombox.com/content/repositories/multiverse-snapshots/de/luricos/bukkit/xAuth/2.6.1-SNAPSHOT/maven-metadata.xml
+Downloaded from codemc-repo: https://repo.codemc.io/repository/maven-public/de/luricos/bukkit/xAuth/2.6.1-SNAPSHOT/maven-metadata.xml (985 B at 5.6 kB/s)
+Downloading from snapshots-repo: https://oss.sonatype.org/content/repositories/snapshots/de/luricos/bukkit/xAuth/2.6.1-SNAPSHOT/maven-metadata.xml
+Downloading from apache-snapshots: https://repository.apache.org/content/repositories/snapshots/ch/jalu/datasourcecolumns/0.1.1-SNAPSHOT/maven-metadata.xml
+Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/ch/jalu/datasourcecolumns/0.1.1-SNAPSHOT/maven-metadata.xml
+Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/ch/jalu/datasourcecolumns/0.1.1-SNAPSHOT/maven-metadata.xml
+Downloading from essentialsx-repo: https://repo.essentialsx.net/releases/ch/jalu/datasourcecolumns/0.1.1-SNAPSHOT/maven-metadata.xml
+Downloading from dmulloy2-repo-snapshots: https://repo.dmulloy2.net/nexus/repository/snapshots/ch/jalu/datasourcecolumns/0.1.1-SNAPSHOT/maven-metadata.xml
+Downloading from onarandombox-repo-snapshots: https://repo.onarandombox.com/content/repositories/multiverse-snapshots/ch/jalu/datasourcecolumns/0.1.1-SNAPSHOT/maven-metadata.xml
+Progress (1): 774 B                   Downloaded from codemc-repo: https://repo.codemc.io/repository/maven-public/ch/jalu/datasourcecolumns/0.1.1-SNAPSHOT/maven-metadata.xml (774 B at 4.5 kB/s)
+Downloading from snapshots-repo: https://oss.sonatype.org/content/repositories/snapshots/ch/jalu/datasourcecolumns/0.1.1-SNAPSHOT/maven-metadata.xml
+[INFO] 
+[INFO] --- enforcer:3.1.0:enforce (enforce-environment) @ authme ---
+[INFO] 
+[INFO] --- jacoco:0.8.8:prepare-agent (pre-unit-test) @ authme ---
+[INFO] argLine set to -javaagent:/Users/yoo/.m2/repository/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar=destfile=/Users/yoo/tmp/experiments/optional-paper-counts-repos/AuthMeReloaded/target/jacoco.exec
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ authme ---
+[INFO] Copying 1 resource
+[INFO] Copying 68 resources
+[INFO] Copying 59 resources to ./messages/
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ authme ---
+Downloading from essentialsx-repo: https://repo.essentialsx.net/releases/org/checkerframework/checker/3.41.1-SNAPSHOT/maven-metadata.xml
+Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/org/checkerframework/checker/3.41.1-SNAPSHOT/maven-metadata.xml
+Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/checkerframework/checker/3.41.1-SNAPSHOT/maven-metadata.xml
+Downloading from apache-snapshots: https://repository.apache.org/content/repositories/snapshots/org/checkerframework/checker/3.41.1-SNAPSHOT/maven-metadata.xml
+Downloading from dmulloy2-repo-snapshots: https://repo.dmulloy2.net/nexus/repository/snapshots/org/checkerframework/checker/3.41.1-SNAPSHOT/maven-metadata.xml
+Downloading from onarandombox-repo-snapshots: https://repo.onarandombox.com/content/repositories/multiverse-snapshots/org/checkerframework/checker/3.41.1-SNAPSHOT/maven-metadata.xml
+Downloading from apache-snapshots: https://repository.apache.org/content/repositories/snapshots/org/checkerframework/checker-qual/3.41.1-SNAPSHOT/maven-metadata.xml
+Downloading from essentialsx-repo: https://repo.essentialsx.net/releases/org/checkerframework/checker-qual/3.41.1-SNAPSHOT/maven-metadata.xml
+Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/org/checkerframework/checker-qual/3.41.1-SNAPSHOT/maven-metadata.xml
+Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/checkerframework/checker-qual/3.41.1-SNAPSHOT/maven-metadata.xml
+Downloading from dmulloy2-repo-snapshots: https://repo.dmulloy2.net/nexus/repository/snapshots/org/checkerframework/checker-qual/3.41.1-SNAPSHOT/maven-metadata.xml
+Downloading from onarandombox-repo-snapshots: https://repo.onarandombox.com/content/repositories/multiverse-snapshots/org/checkerframework/checker-qual/3.41.1-SNAPSHOT/maven-metadata.xml
+Downloading from apache-snapshots: https://repository.apache.org/content/repositories/snapshots/org/checkerframework/checker-util/3.41.1-SNAPSHOT/maven-metadata.xml
+Downloading from codemc-repo: https://repo.codemc.io/repository/maven-public/org/checkerframework/checker-util/3.41.1-SNAPSHOT/maven-metadata.xml
+Downloading from essentialsx-repo: https://repo.essentialsx.net/releases/org/checkerframework/checker-util/3.41.1-SNAPSHOT/maven-metadata.xml
+Downloading from spigotmc-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/checkerframework/checker-util/3.41.1-SNAPSHOT/maven-metadata.xml
+Downloading from dmulloy2-repo-snapshots: https://repo.dmulloy2.net/nexus/repository/snapshots/org/checkerframework/checker-util/3.41.1-SNAPSHOT/maven-metadata.xml
+Downloading from onarandombox-repo-snapshots: https://repo.onarandombox.com/content/repositories/multiverse-snapshots/org/checkerframework/checker-util/3.41.1-SNAPSHOT/maven-metadata.xml
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 379 source files to /Users/yoo/tmp/experiments/optional-paper-counts-repos/AuthMeReloaded/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.305 s
+[INFO] Finished at: 2023-12-14T12:06:08-08:00
+[INFO] ------------------------------------------------------------------------
