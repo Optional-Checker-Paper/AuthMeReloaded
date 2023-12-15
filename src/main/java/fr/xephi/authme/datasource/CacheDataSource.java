@@ -87,6 +87,7 @@ public class CacheDataSource implements DataSource {
     }
 
     @Override
+    @SuppressWarnings("optional:optional.null.comparison") // style-optional-null-comparison
     public HashedPassword getPassword(String user) {
         user = user.toLowerCase(Locale.ROOT);
         Optional<PlayerAuth> pAuthOpt = cachedAuths.getIfPresent(user);
@@ -295,6 +296,7 @@ public class CacheDataSource implements DataSource {
     }
 
     @Override
+    @SuppressWarnings("optional:optional.null.comparison") // style-optional-null-comparison
     public void refreshCache(String playerName) {
         if (cachedAuths.getIfPresent(playerName) != null) {
             cachedAuths.refresh(playerName);
